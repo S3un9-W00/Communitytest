@@ -1,0 +1,29 @@
+{
+  "project": {
+    "name": "test-project",
+    "level": "dynamic",
+    "techStack": {
+      "framework": "nextjs",
+      "language": "typescript",
+      "styling": "tailwind",
+      "database": "prisma-sqlite",
+      "auth": "nextauth"
+    },
+    "createdAt": "2026-01-30"
+  },
+  "features": {
+    "auth": true,
+    "posts": true,
+    "comments": true,
+    "likes": true,
+    "profile": true
+  },
+  "pdca": {
+    "currentPhase": "do",
+    "features": ["community"]
+  },
+  "pipeline": {
+    "currentPhase": 6,
+    "completedPhases": [1, 2, 3, 4, 5, 6]
+  }
+}
